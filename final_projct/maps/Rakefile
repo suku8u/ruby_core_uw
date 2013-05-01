@@ -1,0 +1,27 @@
+require 'rake'
+require 'rspec/core'
+require 'rspec/core/rake_task'
+
+task :default => [:test]
+
+desc "Run specs"
+RSpec::Core::RakeTask.new do |task|
+  task.pattern = "./spec/*_spec.rb"
+  task.rspec_opts = ['--color --format documentation']
+end
+
+desc "Run tests"
+task :test do
+  Rake::Task['spec'].invoke
+end
+
+
+desc "Create tables in the database mentioned within config/database.yml file"
+task :create_tables do
+  ruby "db/create_tables.rb"
+end
+
+desc "Drop tables in the database if the name conflicts"
+task :drop_tables do
+  ruby "db/drop_tables.rb"
+end

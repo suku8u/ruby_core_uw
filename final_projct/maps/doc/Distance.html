@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Class: Distance</title>
+
+  <link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+  <script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="class">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="./lib/dist_calc/dist_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/dist_calc/dist.rb">lib/dist_calc/dist.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link">Object</p>
+        
+      </div>
+      
+
+      
+
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-c-destination_latitude">::destination_latitude</a></li>
+          
+          <li><a href="#method-c-destination_longitude">::destination_longitude</a></li>
+          
+          <li><a href="#method-c-new">::new</a></li>
+          
+          <li><a href="#method-c-origin_latitude">::origin_latitude</a></li>
+          
+          <li><a href="#method-c-origin_longitude">::origin_longitude</a></li>
+          
+          <li><a href="#method-i-travel_dist">#travel_dist</a></li>
+          
+          <li><a href="#method-i-xml_result">#xml_result</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./Rakefile.html">Rakefile</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./DistCalc.html">DistCalc</a></li>
+        
+          <li><a href="./Dist_result.html">Dist_result</a></li>
+        
+          <li><a href="./Dist_source.html">Dist_source</a></li>
+        
+          <li><a href="./Distance.html">Distance</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">Distance</h1>
+
+    <div id="description" class="description">
+      
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="destination_latitude-method" class="method-detail ">
+          <a name="method-c-destination_latitude"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">destination_latitude</span><span
+              class="method-args">(row)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="destination_latitude-source">
+<pre>
+<span class="ruby-comment"># File lib/dist_calc/dist.rb, line 22</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">destination_latitude</span> (<span class="ruby-identifier">row</span>)
+   <span class="ruby-ivar">@destination_latitude</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">Dist_source</span>.<span class="ruby-identifier">all</span>[<span class="ruby-identifier">row</span>].<span class="ruby-constant">DestinationLatitude</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- destination_latitude-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- destination_latitude-method -->
+
+      
+        <div id="destination_longitude-method" class="method-detail ">
+          <a name="method-c-destination_longitude"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">destination_longitude</span><span
+              class="method-args">(row)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="destination_longitude-source">
+<pre>
+<span class="ruby-comment"># File lib/dist_calc/dist.rb, line 26</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">destination_longitude</span> (<span class="ruby-identifier">row</span>)
+   <span class="ruby-ivar">@destination_longitude</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">Dist_source</span>.<span class="ruby-identifier">all</span>[<span class="ruby-identifier">row</span>].<span class="ruby-constant">DestinationLongitude</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- destination_longitude-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- destination_longitude-method -->
+
+      
+        <div id="new-method" class="method-detail ">
+          <a name="method-c-new"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">new</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="new-source">
+<pre>
+<span class="ruby-comment"># File lib/dist_calc/dist.rb, line 10</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>
+  <span class="ruby-ivar">@url_static</span> = <span class="ruby-string">&quot;http://maps.googleapis.com/maps/api/distancematrix/xml?&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- new-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- new-method -->
+
+      
+        <div id="origin_latitude-method" class="method-detail ">
+          <a name="method-c-origin_latitude"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">origin_latitude</span><span
+              class="method-args">(row)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="origin_latitude-source">
+<pre>
+<span class="ruby-comment"># File lib/dist_calc/dist.rb, line 14</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">origin_latitude</span> (<span class="ruby-identifier">row</span>)
+   <span class="ruby-ivar">@origin_latitude</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">Dist_source</span>.<span class="ruby-identifier">all</span>[<span class="ruby-identifier">row</span>].<span class="ruby-constant">OriginLatitude</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- origin_latitude-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- origin_latitude-method -->
+
+      
+        <div id="origin_longitude-method" class="method-detail ">
+          <a name="method-c-origin_longitude"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">origin_longitude</span><span
+              class="method-args">(row)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="origin_longitude-source">
+<pre>
+<span class="ruby-comment"># File lib/dist_calc/dist.rb, line 18</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">origin_longitude</span> (<span class="ruby-identifier">row</span>)
+   <span class="ruby-ivar">@origin_longitude</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">Dist_source</span>.<span class="ruby-identifier">all</span>[<span class="ruby-identifier">row</span>].<span class="ruby-constant">OriginLongitude</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- origin_longitude-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- origin_longitude-method -->
+
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="travel_dist-method" class="method-detail ">
+          <a name="method-i-travel_dist"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">travel_dist</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="travel_dist-source">
+<pre>
+<span class="ruby-comment"># File lib/dist_calc/dist.rb, line 38</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">travel_dist</span>
+ 
+  <span class="ruby-ivar">@driving_miles</span> =  <span class="ruby-constant">Nokogiri</span><span class="ruby-operator">::</span><span class="ruby-constant">XML</span>(<span class="ruby-identifier">xml_result</span>(<span class="ruby-value">1</span>)).<span class="ruby-identifier">css</span>(<span class="ruby-string">&quot;text&quot;</span>).<span class="ruby-identifier">last</span>.<span class="ruby-identifier">text</span>
+  <span class="ruby-constant">Dist_result</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:OriginLatitude</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">origin_latitude</span> (<span class="ruby-value">1</span>),
+                  <span class="ruby-value">:OriginLongitude</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">origin_latitude</span> (<span class="ruby-value">1</span>),
+                  <span class="ruby-value">:DestinationLatitude</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">destination_latitude</span> (<span class="ruby-value">1</span>),
+                  <span class="ruby-value">:DestinationLongitude</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">destination_longitude</span> (<span class="ruby-value">1</span>),
+                  <span class="ruby-value">:DrivingMiles</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-ivar">@driving_miles</span>).<span class="ruby-identifier">save</span>
+
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- travel_dist-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- travel_dist-method -->
+
+      
+        <div id="xml_result-method" class="method-detail ">
+          <a name="method-i-xml_result"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">xml_result</span><span
+              class="method-args">(row)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="xml_result-source">
+<pre>
+<span class="ruby-comment"># File lib/dist_calc/dist.rb, line 30</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">xml_result</span> (<span class="ruby-identifier">row</span>)
+  <span class="ruby-identifier">http</span> = <span class="ruby-constant">HTTPClient</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-ivar">@url</span> = <span class="ruby-node">&quot;#{@url_static}origin=#{Distance.origin_latitude (row)},#{Distance.origin_longitude (row)}\
+          &amp;destination=#{Distance.origin_latitude (row)},#{Distance.destination_longitude (row)}&amp;sensor=false&quot;</span>
+  <span class="ruby-ivar">@xml_result</span> = <span class="ruby-identifier">open</span>(<span class="ruby-ivar">@url</span>.<span class="ruby-identifier">delete</span>(<span class="ruby-string">' '</span>)).<span class="ruby-identifier">read</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-ivar">@xml_result</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- xml_result-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- xml_result-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+

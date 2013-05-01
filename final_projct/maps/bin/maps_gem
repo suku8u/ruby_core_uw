@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+puts "maps script executing"
+puts ARGV[0]
