@@ -20,6 +20,16 @@ elsif ActiveRecord::Schema.tables.include?("dist_results")
 
 else
 ActiveRecord::Schema.define do
+
+  create_table :locations do |table|
+    table.column :address, :string
+  end
+
+  create_table :geo_codes do |table|
+    table.column :address, :string
+    table.column :lat, :string
+    table.column :lon, :string
+  end
   
   create_table :dist_sources do |table|
     table.column :origin_lat, :string

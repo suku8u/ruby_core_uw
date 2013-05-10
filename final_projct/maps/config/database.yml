@@ -1,5 +1,5 @@
 adapter: mysql2
-database: dist_info
+database: geo
 username: dev
 password: pass
 host: localhost

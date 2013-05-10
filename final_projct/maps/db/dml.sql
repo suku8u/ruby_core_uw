@@ -1,4 +1,4 @@
-sudo /Library/StartupItems/MySQLCOM/MySQLCOM start
+#sudo /Library/StartupItems/MySQLCOM/MySQLCOM start
 
 CREATE DATABASE `dist_info`
 
@@ -18,3 +18,13 @@ UNION ALL
 SELECT 43.624,	-121.29,	49.265,	-100.439
 UNION ALL
 SELECT 43.624,	-121.29,	49.265,	-100.439
+
+
+INSERT INTO geo.address (address)
+
+SELECT '218 31st Ave, Seattle, WA - 98122'
+UNION ALL
+SELECT '1015 A St, Tacoma, WA - 98401'
+UNION ALL
+SELECT '1000 River Road, Teaneck, NJ - 07666'
+

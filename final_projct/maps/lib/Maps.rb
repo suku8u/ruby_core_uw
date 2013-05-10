@@ -3,6 +3,9 @@ $LOAD_PATH.unshift File.expand_path("../travel_dist",__FILE__)
 require 'dist_result'
 require 'dist_source'
 require 'travel_dist'
+require 'geo_code'
+require 'geo'
+require 'location'
 require 'version'
 
 module Maps

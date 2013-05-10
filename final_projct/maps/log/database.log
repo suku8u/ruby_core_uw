@@ -1,0 +1,37 @@
+D, [2013-05-10T13:36:23.948790 #12766] DEBUG -- :   [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM `locations` [0m
+D, [2013-05-10T13:36:23.950365 #12766] DEBUG -- :   [1m[35mMaps::Location Load (0.3ms)[0m  SELECT `locations`.* FROM `locations` 
+D, [2013-05-10T13:36:23.953004 #12766] DEBUG -- :   [1m[36mMaps::Location Load (0.2ms)[0m  [1mSELECT `locations`.* FROM `locations` [0m
+D, [2013-05-10T13:36:24.470863 #12766] DEBUG -- :   [1m[35mMaps::Location Load (0.3ms)[0m  SELECT `locations`.* FROM `locations` 
+D, [2013-05-10T13:36:24.649873 #12766] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+D, [2013-05-10T13:36:24.651297 #12766] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `geo_codes` (`address`, `lat`, `lon`) VALUES ('218 31st Ave, Seattle, WA - 98122', '47.6037951', '47.6037951')
+D, [2013-05-10T13:36:24.699236 #12766] DEBUG -- :   [1m[36m (47.6ms)[0m  [1mCOMMIT[0m
+D, [2013-05-10T13:36:24.700467 #12766] DEBUG -- :   [1m[35mMaps::Location Load (0.3ms)[0m  SELECT `locations`.* FROM `locations` 
+D, [2013-05-10T13:36:24.701240 #12766] DEBUG -- :   [1m[36mMaps::Location Load (0.2ms)[0m  [1mSELECT `locations`.* FROM `locations` [0m
+D, [2013-05-10T13:36:24.874836 #12766] DEBUG -- :   [1m[35mMaps::Location Load (0.3ms)[0m  SELECT `locations`.* FROM `locations` 
+D, [2013-05-10T13:36:25.065491 #12766] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2013-05-10T13:36:25.066281 #12766] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  INSERT INTO `geo_codes` (`address`, `lat`, `lon`) VALUES ('1015 A St, Tacoma, WA - 98401', '47.2553343', '47.2553343')
+D, [2013-05-10T13:36:25.066891 #12766] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+D, [2013-05-10T13:36:25.067448 #12766] DEBUG -- :   [1m[35mMaps::Location Load (0.2ms)[0m  SELECT `locations`.* FROM `locations` 
+D, [2013-05-10T13:36:25.067999 #12766] DEBUG -- :   [1m[36mMaps::Location Load (0.1ms)[0m  [1mSELECT `locations`.* FROM `locations` [0m
+D, [2013-05-10T13:36:25.241860 #12766] DEBUG -- :   [1m[35mMaps::Location Load (0.3ms)[0m  SELECT `locations`.* FROM `locations` 
+D, [2013-05-10T13:36:25.418600 #12766] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2013-05-10T13:36:25.419421 #12766] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `geo_codes` (`address`, `lat`, `lon`) VALUES ('1000 River Road, Teaneck, NJ - 07666', '40.8947543', '40.8947543')
+D, [2013-05-10T13:36:25.431495 #12766] DEBUG -- :   [1m[36m (11.8ms)[0m  [1mCOMMIT[0m
+D, [2013-05-10T13:36:25.432310 #12766] DEBUG -- :   [1m[35mMaps::Location Load (0.4ms)[0m  SELECT `locations`.* FROM `locations` 
+D, [2013-05-10T13:36:25.432996 #12766] DEBUG -- :   [1m[36mMaps::Location Load (0.2ms)[0m  [1mSELECT `locations`.* FROM `locations` [0m
+D, [2013-05-10T13:36:25.576582 #12766] DEBUG -- :   [1m[35mMaps::Location Load (0.3ms)[0m  SELECT `locations`.* FROM `locations` 
+D, [2013-05-10T13:36:25.755168 #12766] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2013-05-10T13:36:25.755967 #12766] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `geo_codes` (`address`, `lat`, `lon`) VALUES ('218 31st Ave, Seattle, WA - 98122', '47.6037951', '47.6037951')
+D, [2013-05-10T13:36:25.756527 #12766] DEBUG -- :   [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+D, [2013-05-10T13:36:25.757039 #12766] DEBUG -- :   [1m[35mMaps::Location Load (0.2ms)[0m  SELECT `locations`.* FROM `locations` 
+D, [2013-05-10T13:36:25.757673 #12766] DEBUG -- :   [1m[36mMaps::Location Load (0.1ms)[0m  [1mSELECT `locations`.* FROM `locations` [0m
+D, [2013-05-10T13:36:25.929843 #12766] DEBUG -- :   [1m[35mMaps::Location Load (0.3ms)[0m  SELECT `locations`.* FROM `locations` 
+D, [2013-05-10T13:36:26.108956 #12766] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2013-05-10T13:36:26.109749 #12766] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  INSERT INTO `geo_codes` (`address`, `lat`, `lon`) VALUES ('1015 A St, Tacoma, WA - 98401', '47.2553343', '47.2553343')
+D, [2013-05-10T13:36:26.110451 #12766] DEBUG -- :   [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+D, [2013-05-10T13:36:26.111076 #12766] DEBUG -- :   [1m[35mMaps::Location Load (0.2ms)[0m  SELECT `locations`.* FROM `locations` 
+D, [2013-05-10T13:36:26.111813 #12766] DEBUG -- :   [1m[36mMaps::Location Load (0.2ms)[0m  [1mSELECT `locations`.* FROM `locations` [0m
+D, [2013-05-10T13:36:26.261283 #12766] DEBUG -- :   [1m[35mMaps::Location Load (0.3ms)[0m  SELECT `locations`.* FROM `locations` 
+D, [2013-05-10T13:36:26.433097 #12766] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+D, [2013-05-10T13:36:26.433867 #12766] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  INSERT INTO `geo_codes` (`address`, `lat`, `lon`) VALUES ('1000 River Road, Teaneck, NJ - 07666', '40.8947543', '40.8947543')
+D, [2013-05-10T13:36:26.458765 #12766] DEBUG -- :   [1m[36m (24.6ms)[0m  [1mCOMMIT[0m

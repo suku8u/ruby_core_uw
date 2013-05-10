@@ -27,5 +27,22 @@ else
 end
   
 
+if ActiveRecord::Schema.tables.include?("geo_codes")
+  ActiveRecord::Migration.drop_table  :geo_codes
+  puts "geo_codes table deleted"
+  
+else 
+ puts "geo_codes table doesnt exsist"
+ 
+end
+
+if ActiveRecord::Schema.tables.include?("locations")
+  ActiveRecord::Migration.drop_table  :locations
+  puts "locations table deleted"
+  
+else 
+ puts "locations table doesnt exsist"
+ 
+end
 
  
